@@ -13,3 +13,6 @@
             return "response" // верните ответ, формат ответа - на ваше усмотрение
         }
     }
+
+
+Ваш сервис должен быть объявлен в AndroidManifest с intent-filter, улавливающим action "ru.evotor.integration.APP_REQUEST".
